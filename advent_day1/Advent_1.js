@@ -1,7 +1,7 @@
 const fs = require('fs');
 let totalSum = 0;
 
-fs.readFile('input.txt', 'utf8', (err, data) => {
+fs.readFile('advent_day1/input.txt', 'utf8', (err, data) => {
     if (err) {
         console.error(err);
         return;
@@ -25,5 +25,5 @@ fs.readFile('input.txt', 'utf8', (err, data) => {
             console.log(totalSum);
         }
     }
-    console.log(totalSum);
+    console.log("Final Result " + totalSum);
 });
